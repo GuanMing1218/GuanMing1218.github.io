@@ -1,0 +1,185 @@
+<!DOCTYPE html>	
+
+<html lang="en">
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="author" content="Tan Guan Ming">
+	<meta name="description" content="Rainforest World Music Festival">
+	<meta name="keywords" content="Rainforest, World, Music, Festival">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	
+	<title>Feedback Form | Road To A </title>
+	
+</head>
+
+
+<body id="feedback">
+	<header>
+		<section class="header">
+		  <nav>
+			<a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+			<div class="nav-links" id="NavLinks">
+			<i class="bi bi-x-circle" onclick="hideMenu()"></i>
+			  <ul>
+				<li class="dropdown">
+				<a href="our tutor.html" class="dropbtn">About Us</a>
+				  <div class="dropdown-content">
+					<a href="our tutor.html">Our Tutor</a>
+					<a href="our story.html">Our Story</a>
+					<a href="our vision.html">Our Vision</a>
+					<a href="our achievement.html">Our Achievements</a>
+					<a href="our advantages.html">Our Advantages</a>
+				  </div>
+				</li>
+				<li class="dropdown2">
+				<a href="primary.html" class="dropbtn2">Programmes</a>
+				  <div class="dropdown-content2">
+					<a href="primary.html">Primary English</a>
+					<a href="lower-secondary.html">Lower Secondary English</a>
+					<a href="upper-secondary.html">Upper Secondary English</a>
+					<a href="timetable.html">Timetable</a>
+				  </div>
+				</li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="branches.html">Branches</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+			  </ul>
+			</div>
+			<i class="bi bi-menu-button-wide" onclick="showMenu()"></i>
+		</nav>
+		
+		<div class="text-box">
+		  <h1>Feedback Form</h1>
+		</div>
+		</section>
+		<h2>Feedback Form</h2>
+	</header>
+
+	<article>
+			<div class="container">
+				<form name="feedback" method="post" action="mailto:feedback@sta.com" enctype="text/plain"> 
+				<br>
+				
+			<fieldset>  
+			<div class="formGroup">
+						<label for="name">Name:</label>
+							<input type="text box" name="name" placeholder="Enter your full name" size="40" id="name" required>
+			</div>
+			<br> 
+			<div class="formGroup">		
+						<label>Gender:</label>
+							<input type="radio" name="gender" value="male" id="male" required>
+							<label for="male">Male</label>
+							<input type="radio" name="gender" value="female" id="female" required>
+							<label for="female">Female</label>
+							<input type="radio" name="gender" value="prefer not to say" id="prefer not to say" required>
+							<label for="female">Prefer not to say</label>
+			</div>   
+			<br>           
+			<div class="formGroup">
+						<label for="email">Email:</label>
+							<input type="email" name="email" id="email" required>
+			</div>
+			<br> 
+			<div class="formGroup">
+						<label>Feedback Type:</label>
+							<input type="radio" name="feedbackType" value="Comment" id="comment" required>
+							<label for="comment">Comment</label>
+							<input type="radio" name="feedbackType" value="suggestion" id="suggestion" required>
+							<label for="suggestion">Suggestion</label>
+							<input type="radio" name="feedbackType" value="question" id="question" required>
+							<label for="question">Question</label>
+			</div>
+			<br> 
+			<div class="formGroup">
+				<label for="feedback">Feedback:</label>
+				<textarea name="feedback" rows="5" cols="50" placeholder="Write your feedback here" id="feedback"></textarea>
+			</div>
+			<br> 
+			<div class="formGroup">
+				<p><label type="rating">Rating:</label></p>
+					<div class="rating">
+						<input type="radio" name="rating" id="star1" value="1" required>
+						<label for="star1">&#9733;</label>
+						<input type="radio" name="rating" id="star2" value="2" required>
+						<label for="star2">&#9733;</label>
+						<input type="radio" name="rating" id="star3" value="3" required>
+						<label for="star3">&#9733;</label>
+						<input type="radio" name="rating" id="star4" value="4" required>
+						<label for="star4">&#9733;</label>
+						<input type="radio" name="rating" id="star5" value="5" required>
+						<label for="star5">&#9733;</label>
+					</div>
+			</div>
+			<br>
+			<br>
+			<br>
+				<div class="button">	
+					<button type="reset">Reset</button>
+					<button type="submit">Submit</button>				
+				</div>
+			</fieldset>
+			</form>
+			</div>
+			</article>
+			<footer>
+				<div class="row">
+					<div class="col">
+					<img src="images/logo.jpg" class="logo">
+					<p>"At Road to A Tuition Centre, we are dedicated to empowering students with personalized learning experiences, expert guidance, and a passion for excellence. Join us in unlocking your full potential and achieving academic success. Your future starts here!"</p>
+					</div>
+				<div class="col">
+					<h3>Address:<div class="underline"></div></h3>
+					<p>123, Banana Road</p>
+					<p>Bricksfield, 95690</p>
+					<p>Kuching, Sarawak, Malaysia</p>
+					<p class="email-id"><a href="mailto:roadtoatuitioncentre@gmail.com" class="email">roadtoatuitioncentre@gmail.com</a></p>
+					<h4><a href="tel:+60123456789" class="tel">+60 123456789</a></h4>
+				</div>
+				<div class="col">
+					<h3>Links:<div class="underline"></div></h3>
+				<ul class="footer-link">
+					<li><a href="our tutor.html">About Us</a></li>
+					<li><a href="primary.html">Programmes</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="branches.html">Branches</a></li>
+					<li><a href="feedback.html">Feedback</a></li>
+				</ul>
+				</div>
+				<div class="social-icons">
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-whatsapp"></i>
+					<i class="fa-brands fa-telegram"></i>
+				</div>
+				</div>
+				<hr>
+				<p class="copyright"><a href="Four Leaf Clovers.html">Four Leaf Clovers</a> | Last updated: 3 December 2024</p>
+			</footer>
+			
+			<p class="disclaimer">Disclaimer: This website is created for education and non-commercial use
+				only. It is an assignment for completion of unit, FST10011 Web Technologies
+				for Foundation course from Swinburne University of Technology Sarawak
+				Campus.</p>
+			
+			<script>
+				var NavLinks=document.getElementById("NavLinks");
+				function showMenu(){
+					NavLinks.style.right="0"
+				}
+				function hideMenu(){
+					NavLinks.style.right="-200px"
+				}
+			</script>
+				
+					
+			</body>
+			</html>
+		
+		
+		
+		
+		
